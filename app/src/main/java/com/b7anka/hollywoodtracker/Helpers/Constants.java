@@ -47,10 +47,10 @@ public class Constants
     public static final String PROFILE_NEEDS_UPDATING = "updateProfile";
     public static final String SHOW_WAS_EDITED = "showEdited";
     public static final String  PREMIUM_USER = "premium";
-    public static final String APP_ADMOB_ID = "ca-app-pub-9031073379935977~7612791517";
+    public static final String APP_ADMOB_ID = "YOUR_APP_ID";
     public static final int USER_PREMIUM_TRUE = 1;
-    public static final String INTERSTITIAL_AD_ID = "ca-app-pub-9031073379935977/3338504585";
-    public static final String REWARDED_VIDEO_AD_ID = "ca-app-pub-9031073379935977/8473762256";
+    public static final String INTERSTITIAL_AD_ID = "YOUR_INTERSTITIAL_ID";
+    public static final String REWARDED_VIDEO_AD_ID = "YOUR_REWARDED_VIDEO_ID";
     public static final String TIME_STAMP = "timeStamp";
     public static final String LAST_VIDEO_TIME_STAMP = "lastVideoTimeStamp";
     public static final String LAST_INTERSTITIAL_AD_TIME_STAMP = "lastInterTimeStamp";
