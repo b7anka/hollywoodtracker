@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/startFragment2">
+
+    <fragment
+        android:id="@+id/startFragment2"
+        android:name="com.b7anka.hollywoodtracker.Views.StarterViews.StartHomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_start_home" >
+        <action
+            android:id="@+id/action_startFragment2_to_moviesFragment"
+            app:destination="@id/nav_movies" />
+        <action
+            android:id="@+id/action_startFragment2_to_tvShowsFragment"
+            app:destination="@id/nav_tvshows" />
+        <action
+            android:id="@+id/action_startFragment2_to_recentsFragment"
+            app:destination="@id/nav_recent" />
+        <action
+            android:id="@+id/action_startFragment2_to_profileFragment"
+            app:destination="@id/nav_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_movies"
+        android:name="com.b7anka.hollywoodtracker.Views.Movies.ShowsFragment"
+        android:label="@string/movies"
+        tools:layout="@layout/fragment_all_shows" >
+        <action
+            android:id="@+id/action_moviesFragment_to_addShowFragment"
+            app:destination="@id/addShowFragment" />
+        <action
+            android:id="@+id/action_moviesFragment_to_addShowFragment2"
+            app:destination="@id/addShowFragment" />
+        <action
+            android:id="@+id/action_moviesFragment_to_nav_settings"
+            app:destination="@id/nav_settings"
+            app:popUpTo="@+id/nav_movies" />
+        <action
+            android:id="@+id/action_moviesFragment_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_movies_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tvshows"
+        android:name="com.b7anka.hollywoodtracker.Views.TvShows.TvShowsFragment"
+        android:label="@string/tvshows"
+        tools:layout="@layout/fragment_all_shows" >
+        <action
+            android:id="@+id/action_tvShowsFragment_to_addShowFragment"
+            app:destination="@id/addShowFragment" />
+        <action
+            android:id="@+id/action_tvShowsFragment_to_nav_settings"
+            app:destination="@id/nav_settings"
+            app:popUpTo="@+id/nav_tvshows" />
+        <action
+            android:id="@+id/action_tvShowsFragment_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_tvshows_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_recent"
+        android:name="com.b7anka.hollywoodtracker.Views.Recents.RecentsFragment"
+        android:label="@string/recently_watched"
+        tools:layout="@layout/fragment_all_shows" >
+        <action
+            android:id="@+id/action_recentsFragment_to_nav_settings"
+            app:destination="@id/nav_settings"
+            app:popUpTo="@+id/nav_recent" />
+        <action
+            android:id="@+id/action_recentsFragment_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_recent_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.b7anka.hollywoodtracker.Views.Profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_nav_settings"
+            app:destination="@id/nav_settings"
+            app:popUpTo="@+id/nav_profile" />
+        <action
+            android:id="@+id/action_profileFragment_to_nav_about"
+            app:destination="@id/nav_about" />
+        <action
+            android:id="@+id/action_nav_profile_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_nav_profile_to_changePasswordFromProfileFragment"
+            app:destination="@id/changePasswordFromProfileFragment"
+            app:popUpTo="@+id/nav_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/addShowFragment"
+        android:name="com.b7anka.hollywoodtracker.Views.AddShow.AddShowFragment"
+        android:label="fragment_add_show"
+        tools:layout="@layout/fragment_add_show" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.b7anka.hollywoodtracker.Views.About.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_nav_about_to_addThumbnailFragment"
+            app:destination="@id/addThumbnailFragment"
+            app:popUpTo="@+id/nav_about" />
+        <action
+            android:id="@+id/action_nav_about_to_getPremiumFeaturesForFreeFragment"
+            app:destination="@id/getPremiumFeaturesForFreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.b7anka.hollywoodtracker.Views.Settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.b7anka.hollywoodtracker.Activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/changePasswordFromProfileFragment"
+        android:name="com.b7anka.hollywoodtracker.Views.Profile.ChangePasswordFromProfileFragment"
+        android:label="@string/change_password"
+        tools:layout="@layout/fragment_change_password_from_profile" />
+    <fragment
+        android:id="@+id/addThumbnailFragment"
+        android:name="com.b7anka.hollywoodtracker.Views.AddThumbnail.AddThumbnailFragment"
+        android:label="@string/upload_a_thumbnail"
+        tools:layout="@layout/fragment_add_thumbnail" />
+    <fragment
+        android:id="@+id/getPremiumFeaturesForFreeFragment"
+        android:name="com.b7anka.hollywoodtracker.Views.About.GetPremiumFeaturesForFreeFragment"
+        android:label="@string/get_app_free"
+        tools:layout="@layout/fragment_get_premium_features_for_free" />
+</navigation>

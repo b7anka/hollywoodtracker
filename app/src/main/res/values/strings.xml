@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name" translatable="false">Holly Tracker</string>
+    <string name="username_login">Username or Email</string>
+    <string name="password_login">Password</string>
+    <string name="login_button">Login</string>
+    <string name="about">About</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="show_password">Show password</string>
+    <string name="forgot_Password">Forgot Password?</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="empty_user_inputs">You need to fill everything before proceeding!</string>
+    <string name="error">Error!</string>
+    <string name="no_internet">No internet connection available!</string>
+    <string name="develper_name" translatable="false">Tiago Moreira</string>
+    <string name="develper_email" translatable="false">developer.b7anka@gmail.com</string>
+    <string name="report_bugs">Report Bugs</string>
+    <string name="rate_my_app">Rate My App</string>
+    <string name="upload_a_thumbnail">Upload A Thumbnail</string>
+    <string name="application_settings">Application</string>
+    <string name="use_fingerprint">Use fingerprint sensor instead of auto login</string>
+    <string name="user_interface_settings">User Interface</string>
+    <string name="home_screen_to_use">Select home screen to use</string>
+    <string name="fullName">Full name</string>
+    <string name="username_register">Username</string>
+    <string name="email_register">Email</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="forgot_Password_email">Enter the email you\nregistered with</string>
+    <string name="send_button">Send</string>
+    <string name="forgot_Password_topbar">Forgot Password</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="change_password">Change Password</string>
+    <string name="tap_image_to_change_it">Tap image to change it</string>
+    <string name="camera_or_gallery">Open camera or gallery?</string>
+    <string name="camera_or_gallery_title">Choose option</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="server_timeout">The server has exceeded the time it was expected to give an answer, try again later!</string>
+    <string name="server_not_responding">Server is not responding, try again later!</string>
+    <string name="fill_this_field">Fill this field</string>
+    <string name="upload_thumbnail_info">If you came across a movie or a tv show that has no thumbnail, you can help us by uploading a thumbnail yourself to the title in question so that we can grow our thumbnail database.</string>
+    <string name="insert_thumbnail_title">Title of movie or tv show (Must be original title)</string>
+    <string-array name="homescreen_available">
+        <item>Movies</item>
+        <item>Tv Shows</item>
+        <item>Recently Watched</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="fingerprint_information">Place your finger on the finger print sensor to verify your identity!</string>
+    <string name="server_not_reponding">The server is not responding at the moment, please try again later!</string>
+    <string name="enter_code_from_email">Enter the code you received</string>
+    <string name="entered_code_wrong">The code you entered is wrong!</string>
+    <string name="new_password">Enter your new password</string>
+    <string name="repeat_new_password">Repeat your new password</string>
+    <string name="show_passwords">Show passwords</string>
+    <string name="password_requirements">The password field must contain at least 8 characters long, 1 uppercase letter, 1 lowercase letter, 1 number and 1 symbol! The symbol cannot be a semi-colon \";\"!</string>
+    <string name="passwords_dont_match">The passwords don\'t match!</string>
+    <string name="previous_password_doesnt_match">You current password is wrong!</string>
+    <string name="previous_password_equals_current_password">Your new password can\'t  be the same as your current password!</string>
+    <string name="code_not_case_sensitive">The code is not case sensitive.</string>
+    <string name="only_letter_and_spaces_on_name">The name field can only contain letters and spaces!</string>
+    <string name="fullname_size">You need to input your full name!</string>
+    <string name="fullname_toobig">The name field can not have more than 50 characters!</string>
+    <string name="username_toobig">The username field can not have more than 15 characters!</string>
+    <string name="on_title_too_big">The title cannot have more than 60 characters!</string>
+    <string name="email_toobig">The email field can not have more than 80 characters!</string>
+    <string name="email_notValid">That email address is not valid!</string>
+    <string name="username_requirements">The username can only contain letters, numbers and dots!</string>
+    <string name="develper">Developer:</string>
+    <string name="bug_title">Give the bug a title</string>
+    <string name="bug_content">Describe the bug and if \npossible provide the necessary \nsteps for me to reproduce it.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="bug_report_saved">Bug report successfully saved!</string>
+    <string name="enroll_fingerprints_and_secure_keyguard">In order to activate this functionality you need to enroll at least one fingerprint and you need to secure your lock screen with a pattern, a password or a pin!</string>
+    <string name="fingerprint_error">Your finger print does not match!</string>
+    <string name="fingerprint_succes">Finger print authentication succeeded!</string>
+    <string name="fingerprint_cancel">You\'ve cancelled the finger print authentication!</string>
+    <string name="fingerprint_sensor_locked">You\'ve failed to match your finger print too many times, the finger print sensor is now locked for 30 seconds!</string>
+    <string name="fingerprint_permission_not_granted">You did not granted permission for the app to use finger print sensor, would you want to do that now?</string>
+    <string name="fingerprint_permission_not_granted_title">Fingerprint permission denied!</string>
+    <string name="fingerprint_permission_still_not_granted">You denied again the permission to use the finger print sensor, without it the app cannot use the finger print sensor to authenticate you! The app will now close!</string>
+    <string name="on_watched_time_too_big">The watched time field cannot have more than 8 characters!</string>
+    <string name="on_watched_time_invalid">Max time for watched time field is 03:59:59!</string>
+    <string name="on_season_too_big">The season field cannot have more than 2 characters</string>
+    <string name="on_season_invalid">Max number of seasons is 59!</string>
+    <string name="on_episode_invalid">Max number of episodes is 79!</string>
+    <string name="on_episode_too_big">The episode field cannot have more than 2 characters!</string>
+    <string name="data_season">Season</string>
+    <string name="data_episode">Episode</string>
+    <string name="data_completed">Completed:</string>
+    <string name="movies">Movies</string>
+    <string name="tvshows">Tv Shows</string>
+    <string name="recent">Recent</string>
+    <string name="profile">My Profile</string>
+    <string name="recently_watched">Recently Watched</string>
+    <string name="no_shows">No shows to show</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_movies_to_show">You are not currently watching any movie.</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="fragment_name" translatable="false">Fragment Name</string>
+    <string name="add_tvshow">Add Tv Show Episode</string>
+    <string name="total">Total</string>
+    <string name="premium_user">Premium User</string>
+    <string name="btn_cpass">Change Password</string>
+    <string name="btn_edit">Edit Profile</string>
+    <string name="btn_delete_account">Delete My Account</string>
+    <string name="movie">movie</string>
+    <string name="episode">episode</string>
+    <string name="aks_user_if_he_has_finished">Did you finish watching this</string>
+    <string name="title_finished">Have you finished?</string>
+    <string name="title_edit_show">Do you want to edit it?</string>
+    <string name="aks_user_if_he_wants_to_edit_show">Do you want to edit this</string>
+    <string name="edit_movie">Edit Movie</string>
+    <string name="updated_data_saved_offline">Your changes were successfully saved and will be sent to the server once you get your internet connection back.</string>
+    <string name="no_tvshows_to_show">You are not currently watching any tv show.</string>
+    <string name="no_recents_to_show">You haven\'t watched anything recently.</string>
+    <string name="original_title">Original Title</string>
+    <string name="watched_time">Watched Time</string>
+    <string name="is_begining">is begining?</string>
+    <string name="save">Save</string>
+    <string name="edit_tvshow">Edit Tv Show Episode</string>
+    <string name="title_delete">Delete?</string>
+    <string name="aks_user_if_he_wants_to_delete">Do you want to delete this</string>
+    <string name="nothing_to_delete">You don\'t have anything to delete!</string>
+    <string name="current_password">Enter your current password</string>
+    <string name="warning">Warning!</string>
+    <string name="action_delete_account">Are you sure you want to delete your account? Your photo, personal information and every tvshow and movie information will be deleted and cannot be retrieved back! Proceed?</string>
+    <string name="purchase_not_supported">Your device does not support in app purchases!</string>
+    <string name="billing_failed">Billing has failed for some reason!</string>
+    <string name="user_invalid">It seems there is something wrong with your user, it appears that it no longer exists! You will be logged out from the application, try to login again or use a diferent user account!</string>
+    <string name="activate_auto_login_to_use_fingerprint">You need to click on the remember me checkbox when you login to be able to use this functionality!</string>
+    <string name="select_thumbnail">Select Thumbnail</string>
+    <string name="on_image_to_upload_empty">You need to select an image before proceeding!</string>
+    <string name="get_app_free">Get the premium features for free</string>
+    <string name="get_premium_for_free">If you want the premium features for free, wait no more you can have them by watching some videos from our partners! Once you\'ve watched all videos you will receive the premium package free of charge!</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="rewarded_video_failed_to_load">The rewarded video failed to load! Please try again later!</string>
+    <string name="congratulations">Congratulations! You are now a premium user!</string>
+    <string name="congratulations_title">Congratulations!</string>
+    <string name="rewarded_vids_updated_ok">Rewarded videos updated successfully!</string>
+    <string name="rewarded_vids_updated_nok">An error occurred while trying to update the rewarded videos! Try again later!</string>
+    <string name="total_watched_vids">Total Videos Watched</string>
+    <string name="wait_to_watch_video_again">You have to wait a little bit to watch another video!</string>
+    <string name="required_videos">Videos Required</string>
+    <string name="login_with_google_button">LOGIN WITH GOOGLE</string>
+    <string name="google_sign_in_failed">Your google sign in failed, check your account!</string>
+    <string name="aks_user_if_he_wants_to_link_his_google_account">There\'s already an user registered with that email address, do you want to link this google account?</string>
+    <string name="user_already_registered" translatable="false">Oops...!</string>
+    <string name="failed_to_connect_to_google">Failed to connect to google, try again later!</string>
+    <string name="btn_unlink_google">Unlink Google Account</string>
+    <string name="ask_user_if_he_wants_to_unlink_his_google_account">Are you sure you want to unlink your google account? You will have to link it again if you want to use it in the future. Proceed?</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="successfully_unliked_google_account">You have successfully unlinked your google account!</string>
+    <string name="failed_unliked_google_account">It was not possible to unlink your google account right now, try again later!</string>
+    <string name="no_data_to_show">No data to show.</string>
+
+</resources>

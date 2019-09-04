@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.AddShow.AddShowFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:hint="@string/original_title"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:inputType="text"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/watchedTimeEditText"
+            android:hint="@string/watched_time"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="time"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvshowsRelatedStuffLinearLayout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/seasonEditText"
+            android:hint="@string/data_season"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginStart="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/episodeEditText"
+            android:hint="@string/data_episode"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginEnd="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/isBeginingCheckBox"
+        android:text="@string/is_begining"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/saveButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
